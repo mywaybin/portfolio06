@@ -351,36 +351,73 @@
     margin: 0 2px;
 }
 
-.mainBanner .mainSlide figure {
-    height: 300px;
+.mainBanner {
+    text-align: center;
 }
 
-.mainBanner .mainSlide .itm01 {
-    background-color: rgba(7, 12, 94, 0.827);
+.mainBanner .mainSlide02 figure {
+    height: 380px;
 }
 
+.mainBanner .mainSlide02 .itm01 {
+    background: url(../img/mainbanner01.jpg);
+}
+.mainBanner .mainSlide02 .itm02 {
+    background: url(../img/mainbanner02.jpg);
+}
 
-.mainBanner .main_txt h2 {
+.mainBanner .mainSlide02 .slick-dots>li {
+    font-size: 0;
+}
+
+.mainBanner .mainSlide02 .slick-dots>li button {
+    display: none;
+}
+
+.mainBanner .mainSlide02 .slick-arrow {
+    background: none;
+    border: none;
+    font-size: 0;
+}
+
+.mainBanner .mainSlide02 .figure {
+    position: relative;
+}
+
+.mainBanner h2 {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 1310px;
+    left: 450px;
     right: 0;
-    margin: 0 0 500px 0;
+    font-size: 40px;
+    font-weight: 700;
+    color: #fff;
     text-align: center;
-    color: #ff6347;
 }
 
-.mainBanner .main_txt p {
+.mainBanner p {
     position: absolute;
-    display: inline-block;
-    top: 0;
-
-    margin: 0 0 500px 0;
+    top: 1365px;
+    left: 450px;
+    right: 0;
+    font-size: 27px;
+    font-weight: 400;
     text-align: center;
-    color: #ff6347;
+    color: #fff;
 }
 
-
+.mainBanner>a {
+    position: absolute;
+    top: 1430px;
+    left: 910px;
+    right: 0;
+    font-size: 27px;
+    font-weight: 400;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    width: 150px;
+}
 
 
 
