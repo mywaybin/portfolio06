@@ -33,22 +33,13 @@ $(function () {
         slidesToShow: 3,
     });
 
-    $(function () {
-        $(window).on('scroll', function () {
-            var scr = $(window).scrollTop(); // 스크롤 값을 구함
-            if (scr > 300) {
-                $('#toTop').fadeIn();
-            } else {
-                $('#toTop').fadeOut();
-            }
-            //scr > 300 ? $('#toTop').fadeIn() : $('#toTop').fadeOut()
+    $('.mainContent .arrows .Prev').on('click', function () {
+        $('.main_pro_slide').slick('slickPrev')
+    });
 
-        });
-
-        $('#toTop').on('click', function () {
-            $('html, body').animate({ scrollTop: 0 }, 2000)
-        })
-    })
+    $('.mainContent .arrows .Next').on('click', function () {
+        $('.main_pro_slide').slick('slickNext')
+    });
 
 })
 
