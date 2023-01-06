@@ -352,7 +352,7 @@
 }
 
 .mainBanner {
-    text-align: center;
+    text-align: right;
 }
 
 .mainBanner .mainSlide02 figure {
@@ -362,6 +362,7 @@
 .mainBanner .mainSlide02 .itm01 {
     background: url(../img/mainbanner01.jpg);
 }
+
 .mainBanner .mainSlide02 .itm02 {
     background: url(../img/mainbanner02.jpg);
 }
@@ -409,7 +410,7 @@
 .mainBanner>a {
     position: absolute;
     top: 1430px;
-    left: 910px;
+    left: 1100px;
     right: 0;
     font-size: 27px;
     font-weight: 400;
